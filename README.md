@@ -4,16 +4,15 @@ This is a simple URL shortening service.
 
 ## Getting Started
 
-You will need the following dependencies:
+This app is dependent on python, flask, and SQLite.
 
-Python3 + pip
-Flask
-Hashids
-SQLite
+Once you've cloned the repo, install dependencies:
 
-**TODO make requirements.txt*
+```
+pip install -r requiremements.txt
+```
 
-Once you've cloned the repo, initialize your SQLite DB:
+Initialize your SQLite DB:
 
 ```
 python3 init_db.py
